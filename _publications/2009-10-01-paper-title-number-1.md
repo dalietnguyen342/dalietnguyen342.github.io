@@ -1,12 +1,11 @@
 ---
-title: "Neural Computing and Applications (Manuscript)"
+title: "Neural Computing and Applications"
 collection: publications
-category: manuscripts
-permalink: /publication/2025-01-01-neural-computing-and-applications
-excerpt: "Manuscript submitted and awaiting review."
-date: 2025-01-01
-venue: "Neural Computing and Applications"
+category: articles
+excerpt: "Submitted and awaiting review."
+venue: "Under review"
 slidesurl: ""
 paperurl: ""
 citation: "Nguyen Ngoc Yen Nhi (2025). 'Neural Computing and Applications.' Manuscript submitted and awaiting review."
 ---
+
