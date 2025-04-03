@@ -41,22 +41,10 @@ Academic Achievements
 * Dean’s List Recipient (Maintained Top 10% GPA in 4 out of 6 semesters)  
 * EVN Scholarship 2024 for academic excellence and research contributions
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
 Projects
 ======
   <ul>{% for post in site.portfolio reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-Service and Leadership
-======
-* Active member in various research groups and academic clubs  
-* Involved in mentoring peers and contributing to community-based projects  
-* Engaged in multiple collaborative projects and initiatives
 
 
