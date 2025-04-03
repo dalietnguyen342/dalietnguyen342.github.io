@@ -2,9 +2,9 @@
 title: "RAMOTS: A Real-Time System for Aerial Multi-Object Tracking based on Deep Learning and Big Data Technology"
 collection: publications
 category: articles
-excerpt: "Published paper presented at KSE 2024. Available in IEEE Xplore."
+excerpt: "Published paper presented at KSE 2025. Available in IEEE Xplore."
 date: 2025-02-05
-venue: "IEEE Xplore (KSE 2024)"
+venue: "IEEE Xplore (KSE 2025)"
 paperurl: "https://arxiv.org/abs/2502.03760"
 ---
 Authors: Nhat-Tan Do, Nhi Ngoc-Yen Nguyen, Dieu-Phuong Nguyen, Trong-Hop Do
