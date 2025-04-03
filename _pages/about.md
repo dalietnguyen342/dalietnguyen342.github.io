@@ -12,7 +12,7 @@ redirect_from:
 
 Welcome to my homepage! I'm **Nguyen Ngoc Yen Nhi**. Currently, I work as a **Biostatistician / Data Science Intern** at [Oxford University Clinical Research Unit (OUCRU)](https://www.oucru.org/) in Ho Chi Minh City, Vietnam, where I apply advanced statistical techniques and machine learning methods to biomedical research. I am also an active research team member at **DS@UIT Club**, where I contribute to innovative projects in artificial intelligence and machine learning. I am pursuing my **Bachelor of Science in Data Science** at the **University of Information Technology (UIT)**, Vietnam, consistently achieving academic excellence as evidenced by my Dean’s List recognitions and EVN Scholarship award.
 
-**Email:** [yennhi.nguyenngoc03@gmail.com](mailto:yennhi.nguyenngoc03@gmail.com)  
+**Email:** [yennhinguyenngoc.work@gmail.com](mailto:yennhinguyenngoc.work@gmail.com)  
 **LinkedIn:** [linkedin.com/in/yennhinguyenngoc03](https://www.linkedin.com/in/yennhinguyenngoc03/)  
 **GitHub:** [github.com/NhiNguyen34](https://github.com/NhiNguyen34)
 
