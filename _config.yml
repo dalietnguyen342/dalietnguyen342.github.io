@@ -1,99 +1,158 @@
 # Welcome to Jekyll!
 #
-# This config file affects your entire site. Once set up, you should rarely need to edit it.
-# If you make changes, restart the server process.
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
 # Basic Site Settings
 locale: "en-US"
 site_theme: "default"
 title: "Nguyen Ngoc Yen Nhi - Portfolio"
 title_separator: "-"
-name: "Nguyen Ngoc Yen Nhi"
-description: "Data Science Student & Researcher | Biostatistician Intern at OUCRU | Specializing in AI, Machine Learning, and Biostatistics"
-url: "https://nhinguyen34.github.io"
-baseurl: ""
-repository: "NhiNguyen34/NhiNguyen34.github.io"
+name                     : &name "Your Name"
+description              : &description "personal description"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "academicpages/academicpages.github.io"
 
-# Site Author Information
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar: "profile.png"         # Ensure your profile image is placed in the appropriate folder
-  name: "Nguyen Ngoc Yen Nhi"
-  pronouns: "she/her"
-  bio: "Bachelor of Science in Data Science at University of Information Technology (UIT), Vietnam. Dean’s List recipient and EVN Scholarship awardee. Experienced in biostatistics, AI, and machine learning, with active research and project work."
-  location: "Ho Chi Minh City, Vietnam"
-  employer: "Oxford University Clinical Research Unit (OUCRU)"
-  email: "yennhi.nguyenngoc03@gmail.com"
-  # Academic & Professional Profiles
-  github: "NhiNguyen34"
-  linkedin: "https://www.linkedin.com/in/yennhinguyenngoc03/"
+  # Biographic information
+  avatar           : "profile.png"
+  name             : "Your Sidebar Name"
+  pronouns         : # example: "she/her"  
+  bio              : "Short biography for the left-hand sidebar"
+  location         : "Earth"
+  employer         : "Red Brick University"
+  uri              : # URL
+  email            : "none@example.org" 
 
-# Social Sharing & Links
-social:
-  type: "Person"
-  name: "Nguyen Ngoc Yen Nhi"
-  links:
-    - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/yennhinguyenngoc03/"
-    - name: "GitHub"
-      url: "https://github.com/NhiNguyen34"
+  # Academic websites
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  impactstory      : # URL
+  orcid            : "http://orcid.org/yourorcidurl"
+  semantic         : # URL
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : # URL
+  scopus           : # URL
 
-# Publication Categories (if applicable)
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "academicpages"
+  kaggle           : # Username  
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+
+  # Social media
+  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : # Username
+  mastodon         : # URL
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : # Username for X / Twitter
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # Username
+
+# Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
-    title: "Books"
+    title: 'Books'
   manuscripts:
-    title: "Journal Articles"
+    title: 'Journal Articles'    
   conferences:
-    title: "Conference Papers"
+    title: 'Conference Papers'
 
 # Site Settings
-teaser: ""
-breadcrumbs: false
-words_per_minute: 160
-future: true
-read_more: "disabled"
-talkmap_link: false
+teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
-  provider: ""
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            :
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields: ['name', 'email', 'url', 'message']
-  branch: "gh-pages"
-  commitMessage: "New comment."
-  filename: comment-{@timestamp}
-  format: "yml"
-  moderation: true
-  path: "_data/comments/{options.slug}"
-  requiredFields: ['name', 'email', 'message']
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" # "master", "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
   transforms:
-    email: "md5"
+    email                : "md5"
   generatedFields:
     date:
-      type: "date"
+      type               : "date"
       options:
-        format: "iso8601"
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide: false
-  path: ""
+  hide                   : false     # change to true to hide the RSS feed in the footer
+  path                   : # blank (default) uses feed.xml
 
-# SEO & Analytics (update if you have verification codes)
-google_site_verification: ""
-bing_site_verification: ""
-alexa_site_verification: ""
-yandex_site_verification: ""
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+
+# Social Sharing
 twitter:
-  username: ""
+  username               : &twitter
 facebook:
-  username: ""
-  app_id: ""
-  publisher: ""
-og_image: ""
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :  # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
 
+
+# Analytics
 analytics:
-  provider: "false"
+  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id: ""
+    tracking_id          :
 
-# File Inclusion & Exclusion
+
+# Reading Files
 include:
   - .htaccess
   - _pages
@@ -131,13 +190,16 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Markdown & Conversion Settings
+
+# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -148,7 +210,8 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Collections for Site Content
+
+# These settings control the types of collections used by the template
 collections:
   teaching:
     output: true
@@ -163,8 +226,10 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Default Values for Pages & Posts
+
+# These settings control how pages and collections are included in the site
 defaults:
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -175,12 +240,14 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+  # _teaching
   - scope:
       path: ""
       type: teaching
@@ -189,6 +256,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _publications
   - scope:
       path: ""
       type: publications
@@ -197,6 +265,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -205,6 +274,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _talks
   - scope:
       path: ""
       type: talks
@@ -213,14 +283,19 @@ defaults:
       author_profile: true
       share: true
 
-# Sass/SCSS Settings
+
+# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-# Output Settings
+
+# Outputting
 permalink: /:categories/:title/
-timezone: Etc/UTC
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 # Plugins
 plugins:
@@ -231,6 +306,7 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
+# Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
   - jekyll-gist
@@ -239,15 +315,38 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
-# Archives Configuration
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
-# HTML Compression Settings
+
+# HTML Compression
+# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
