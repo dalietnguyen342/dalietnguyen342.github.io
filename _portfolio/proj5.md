@@ -2,13 +2,10 @@
 title: "Preprocessing Techniques in Diabetic Retinopathy Detection and Diagnosis"
 collection: portfolio
 category: projects
-permalink: /project/2024-09-01-preprocessing-diab-retinopathy
 excerpt: >
   A comprehensive study on the impact of preprocessing techniques in diabetic retinopathy detection, with an emphasis on statistical analysis to evaluate their effectiveness.
-date: 2024-09-01
-technologies: "Machine Learning, Deep Learning, Image Processing, Statistical Analysis"
+<b>Technologies: "Machine Learning, Deep Learning, Image Processing, Statistical Analysis (ANOVA test - one and two way, Tukey’s post hoc test) </b>"
 projecturl: "https://github.com/NhiNguyen34/dpreprocessing-diabetic-retinopathy"
-citation: "Nguyen Ngoc Yen Nhi (2024). 'Preprocessing Techniques in Diabetic Retinopathy Detection and Diagnosis.' Emphasizing statistical evaluation to determine the impact of preprocessing methods."
 ---
 Preprocessing involves eliminating noise and redundant information that may reduce model performance, thereby allowing the model to focus on key features. In this project, our research group analyzed the effectiveness of various preprocessing techniques in the context of diabetic retinopathy detection—a major cause of visual impairment and blindness among diabetic patients.
 
