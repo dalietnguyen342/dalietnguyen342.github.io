@@ -6,7 +6,6 @@ excerpt: "Published paper in CEUR Workshop Proceedings for CLEF2024. Achieved To
 date: 2024-06-01
 venue: "CEUR Workshop Proceedings (CLEF2024)"
 paperurl: "https://arxiv.org/abs/2406.00391"
-citation: "Nguyen Ngoc Yen Nhi (2024). 'DS@ BioMed at ImageCLEFmedical Caption 2024: Enhanced Attention Mechanisms in Medical Caption Generation through Concept Detection Integration.' Presented at CLEF2024, CEUR Workshop Proceedings."
 ---
 Authors: <b>Nhi Ngoc-Yen Nguyen</b>, Le-Huy Tu, Dieu-Phuong Nguyen, Nhat-Tan Do, Minh Triet Thai, Bao-Thien Nguyen-Tat
 
