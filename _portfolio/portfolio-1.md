@@ -1,7 +1,6 @@
 ---
 title: "Multimodal Medical Question Answering System (DSC2024)"
 collection: portfolio
-category: projects
 excerpt: "Developed a comprehensive multimodal system integrating speech recognition, text generation, and text-to-speech conversion for medical question answering using advanced NLP models."
 tags: "HuggingFace Transformers, Langchain, NLP and Speech Processing technique"
 github: "https://github.com/UIT-HuyTanNhiPhuong/Blind-Doctor.git"
