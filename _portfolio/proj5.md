@@ -2,7 +2,7 @@
 title: "Preprocessing Techniques in Diabetic Retinopathy Detection and Diagnosis"
 collection: portfolio
 excerpt: >
-  Machine Learning, Deep Learning, Image Processing, Statistical Analysis (ANOVA test - one and two way, Tukey’s post hoc test)"
+  Technologies: Machine Learning, Deep Learning, Image Processing, Statistical Analysis (ANOVA test - one and two way, Tukey’s post hoc test)"
 ---
 Preprocessing involves eliminating noise and redundant information that may reduce model performance, thereby allowing the model to focus on key features. In this project, our research group analyzed the effectiveness of various preprocessing techniques in the context of diabetic retinopathy detection—a major cause of visual impairment and blindness among diabetic patients.
 
