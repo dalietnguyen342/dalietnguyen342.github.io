@@ -1,7 +1,7 @@
 ---
 title: "Multimodal Medical Question Answering System (DSC2024)"
 collection: portfolio
-excerpt: "Technologies: HuggingFace Transformers, Langchain, NLP, TTS(Text-to_Speeech: Speech Processing technique), LLMs and ETL."
+excerpt: "Technologies: HuggingFace Transformers, Langchain, NLP, TTS(TextToSpeeech: Speech Processing technique), LLMs and ETL."
 ---
 
 [GITHUB](https://github.com/UIT-HuyTanNhiPhuong/Blind-Doctor.git)
