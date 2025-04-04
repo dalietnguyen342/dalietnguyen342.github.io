@@ -2,7 +2,7 @@
 title: "Evaluating Livability and Human Development in Vietnamese Provinces"
 collection: portfolio
 category: projects
-excerpt: "Technologies: Python, Power BI, Pandas, Numpy, Tableau, Seaborn, Regression, Clustering"
+excerpt: "Technologies: Python, SQL, Power BI, Pandas, Numpy, Tableau, Seaborn, Regression, Clustering"
 ---
 
 Github: [Github](https://github.com/NhiNguyen34/DS105.O11.KHDL)
