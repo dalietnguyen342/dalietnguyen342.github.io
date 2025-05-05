@@ -12,8 +12,8 @@ redirect_from:
 Education
 ======
 * **Bachelor of Science in Data Science**, University of Information Technology (UIT), Ho Chi Minh City, Vietnam, 2020 – 2025  
-  GPA: 8.89/10 (Top 10% of class)  
-  - Dean’s List Recipient (4 out of 6 semesters)  
+  GPA: 8.89/10 
+  - Dean’s List Recipient (5 out of 7 semesters)  
   - Scholarships: EVN Scholarship 2024, Academic Excellence Scholarship  
   - Certifications: TOEIC 815, IELTS 6.0 (2024)  
   - Participated in the University Vietnam Mathematical Olympiad (VMO) initial selection round
